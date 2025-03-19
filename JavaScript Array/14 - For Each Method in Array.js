@@ -64,7 +64,7 @@ myForeach(names, (value, index) => {
     console.log(`${index + 1}: ${value}`);
 });
 
-
+// Using JavaScript's built-in forEach method
 names.forEach((value, index) => {
     console.log(`[Array] - ${index + 1}: ${value}`);
 });
