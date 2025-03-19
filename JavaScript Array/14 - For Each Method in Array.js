@@ -63,3 +63,8 @@ console.log(sum); // Output: 10
 myForeach(names, (value, index) => {
     console.log(`${index + 1}: ${value}`);
 });
+
+
+names.forEach((value, index) => {
+    console.log(`[Array] - ${index + 1}: ${value}`);
+});
